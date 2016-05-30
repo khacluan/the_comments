@@ -10,7 +10,7 @@ Gem::Specification.new do |gem|
   gem.email         = ["dangluan20@gmail.com"]
   gem.description   = %q{ Comments with threading for Rails 4 }
   gem.summary       = %q{ the_comments by the-teacher }
-  gem.homepage      = "https://github.com/the-teacher/the_comments"
+  gem.homepage      = "https://github.com/khacluan/the_comments"
 
   gem.files         = `git ls-files`.split($/)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
@@ -20,6 +20,4 @@ Gem::Specification.new do |gem|
   gem.add_dependency 'state_machine',     '~> 1.2.0'
   gem.add_dependency 'the_sortable_tree', '~> 2.5.0'
   gem.add_dependency 'the_simple_sort',   '~> 0.0.2'
-
-  # gem.add_dependency 'rails', '>= 4.0'
 end
