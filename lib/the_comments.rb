@@ -22,6 +22,7 @@ require "#{_root_}/config/routes.rb"
 
 if StateMachine::VERSION.to_f <= 1.2
   module StateMachine::Integrations::ActiveModel
+    puts "You should not in here"
     public :around_validation
   end
 end

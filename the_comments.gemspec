@@ -4,10 +4,10 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'the_comments/version'
 
 Gem::Specification.new do |gem|
-  gem.name          = "the_comments"
+  gem.name          = "the_comments_ruby"
   gem.version       = TheComments::VERSION
-  gem.authors       = ["Ilya N. Zykin"]
-  gem.email         = ["zykin-ilya@ya.ru"]
+  gem.authors       = ["Khac Luan"]
+  gem.email         = ["dangluan20@gmail.com"]
   gem.description   = %q{ Comments with threading for Rails 4 }
   gem.summary       = %q{ the_comments by the-teacher }
   gem.homepage      = "https://github.com/the-teacher/the_comments"
