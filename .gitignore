@@ -4,7 +4,7 @@
 .bundle
 .config
 .yardoc
-
+.idea
 .rvmrc
 .ruby-gemset
 .ruby-version
